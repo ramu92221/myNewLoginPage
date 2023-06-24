@@ -1,0 +1,68 @@
+
+body{
+    justify-content: space-around;
+    overflow: auto;
+    background: linear-gradient(rgb(180, 41, 180),rgb(156, 154, 154),rgb(138, 76, 238));
+    
+    
+}
+#div1{
+    height:700px;
+    width: 63%;
+    background:linear-gradient(rgb(83, 82, 82),rgb(156, 154, 154),rgb(49, 35, 35)) ;
+    color: white;
+    margin: auto;
+    overflow: auto;
+    box-shadow: 12px 15px 3px rgb(255, 0, 0);
+    scrollbar-face-color: aqua;
+    
+   
+}
+#heading
+{
+    text-shadow: 2px 4px rgba(5, 5, 5, 0.582);
+    color: rgb(163, 76, 245);
+    text-align: center;
+}
+#heading2
+{
+    background: none;
+    text-shadow: 2px 4px black;
+   text-align: center;
+}
+label{
+    float: left;
+    margin: 10px;
+}
+#input{
+    float: right;
+    border-radius: 5px 20px;
+    height: 25px;
+    width: 250px;
+}
+#btn{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+#btn:hover{
+    background-color: rgb(37, 23, 23);
+    
+}
+#btn:active{
+    background-color: #3e8e41;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(4px);
+    border: none;
+
+}
+fieldset{
+    height: 150px;
+    width: 96%;
+}
+#log{
+    text-decoration: none;
+    color: white;
+}
